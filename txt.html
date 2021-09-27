@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <div id="instafeed"></div>
+
+
+
+    <script>
+        // Instafeed For | Instagram Feed Section
+    var feed = new Instafeed({
+        accessToken: 'IGQVJXcDlXWVVlc2paN3BobU5VREI3T0xVc3lnMTA1VEJBRWFiMk5XR1pjX1VObm1qOTJmTFQwcUNUOEx6bnAtWUIxOEdvOW9OZAS02VFd5ZAmNuQnpyaE9MLUtuaTVRT2RBUDg3dlk4QUJpV0hFOWpETAZDZD',
+        limit: 6,
+        template: '<ul><li><a href="{{link}}" target="_new"><img src="{{image}}" /></a></li></ul>'
+      });
+      feed.run();
+    </script>
+</body>
+</html>

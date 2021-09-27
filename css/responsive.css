@@ -1,0 +1,349 @@
+
+
+/** Medium Device (Tablet Device) **/
+@media(max-width: 991px){
+  #home_section .intro .text-2 {
+    font-size: 60px;
+  }
+  #home_section .intro .hire-me a, #home_section .intro .download-cv a {
+    padding: 8px 16px;
+    font-size: 15px;
+  }
+  #about_section .person-img {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  #contact_section .contact-info h3 {
+    text-align: center;
+  }
+  #contact_section .contact-info p {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  #contact_section .contact-form{
+    margin-top: 50px;
+  }
+  #contact_section .contact-form h4 {
+    text-align: center;
+  }
+
+  #skills_section .skill-text h4 {
+    font-size: 18px;;
+    text-align: center;
+  }
+  #skills_section .skill-text p {
+    text-align: center;
+  }
+  #skills_section .skill-btn {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  #portfolio_section .single-portfolio .portfolio-overlay {
+    top: 0%;
+    padding: 0 30px;
+  }
+
+  /** Article single blog popup **/
+  #article_section .blog-posts .single-blog .card .modal .modal-title {
+    font-size: 20px;
+  }
+  #article_section .modal-body .modal-video{
+    overflow: hidden;
+  }
+  #portfolio_section .filter-button ul li {
+    margin: 0px 3px;
+    padding: 8px 10px;
+    font-size: 16px;
+  }
+  #article_section .card-body .post-exerpt{
+    padding: 0 50px;
+  }
+
+}
+
+/** Small Device (Mobile Device) **/
+@media(max-width: 767px){
+  section{
+    padding: 100px 0;
+ }
+  /** Start Header Section **/
+  #header_section .topbar-section {
+    display: none;
+  }
+  #header_section .main-header .menu {
+    display: none;
+  }
+  #header_section .main-header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+  }
+  #header_section .main-header .mobile-menu{
+    display: block;
+  }
+
+  #home_section{
+    height: 80vh;
+  }
+
+  /** Start Home Section **/
+  #home_section .intro .text-2 {
+    margin-bottom: 10px;
+    font-size: 40px;
+  }
+
+  .section-heading .white-section-heading h2 {
+    font-size: 30px;
+  }
+  .section-heading .white-section-heading .subheading {
+    font-size: 16px;
+  }
+    .icon-list {
+      margin-bottom: 20px;
+    }
+    #portfolio_section .filter-button ul li {
+      font-size: 14px;
+  }
+  #contact_section .contact-info .info-with-icon .info-collumn{
+    display: flex;
+  }
+  #home_section .intro .text-3 {
+    font-size: 22px;
+    margin-bottom: 0;
+  }
+  #portfolio_section .filter-button ul li {
+    margin: 0px 3px;
+    padding: 5px 7px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+ 
+
+}
+
+/** Extra Small Device (Mobile Device) **/
+@media(max-width: 575px){
+  section{
+    padding: 80px 0;
+  }
+  #home_section{
+    height: 60vh;
+  }
+  .section-heading .white-section-heading h2 {
+    font-size: 25px;
+  }
+  .section-heading .white-section-heading .subheading {
+    font-size: 14px;
+  }
+  .section-heading .subheading::before {
+    width: 25px;
+  }
+  .section-heading .subheading::after {
+    width: 25px;
+  }
+  #home_section{
+    height: 70vh;
+  }
+  #home_section .intro .text-2 {
+    font-size: 35px;
+  }
+  #home_section .intro .text-1 {
+    font-size: 18px;
+  }
+  #home_section .intro .text-3 {
+    font-size: 20px;
+  }
+  #home_section .intro .hire-me a, #home_section .intro .download-cv a {
+    padding: 5px 8px;
+    font-size: 12px;
+  }
+  #about_section .person-info .title {
+    text-align: center;
+  }
+  #about_section .person-info p {
+    text-align: center;
+    margin: 0 10px;
+    margin-bottom: 20px;
+  }
+  #about_section .personal-info ul {
+    text-align: center;
+  }
+  #about_section .personal-info .first-ul {
+    margin-bottom: 20px;
+  }
+  #about_section .contact-popup-modal {
+    text-align: center;
+  }
+  #counter_section .counter-box .counter-number {
+    font-size: 30px;
+  }
+  #portfolio_section .filter-button ul li {
+    margin: 0 5px;
+    font-size: 12px;
+  }
+  #contact_section .contact-info .icon-list .icon {
+    font-size: 20px;
+  }
+  #contact_section .contact-info .icon-list .title {
+    font-size: 16px;
+  }
+  #contact_section .subtitle {
+    font-size: 15px;
+  }
+  #contact_section .info-with-icon {
+    padding-left: 20px;
+  }
+  #testimonial_section .testimonial-slider .single-slide .card .quote-icon img {
+    width: 50px;
+    height: 50px;
+  }
+  #testimonial_section .testimonial-slider .single-slide .card .quote-icon {
+    position: absolute;
+    top: 41px;
+    right: 31px;
+  }
+
+  #article_section .blog-posts .single-blog .card .modal .modal-title {
+    font-size: 18px;
+  }
+  #footer_section #footer_copyright .copyright-text p {
+    font-size: 14px;
+  }
+  #testimonial_section .testimonial-slider .single-slide .card .client-title h5 {
+    font-size: 12px;
+  }
+  #testimonial_section .testimonial-slider .single-slide .card .client-title h3 {
+    font-size: 17px;
+    margin-bottom: 5px;
+  }
+  #skills_section .skill-text p {
+    padding: 0 10px;
+  }
+  #skills_section .skill-progress-bar .progress {
+    height: 2.2rem;
+    font-size: 1.1rem;
+  }
+  #home_section .intro .text-3 {
+    margin-bottom: 0px;
+  }
+  #about_section .person-img img {
+    background: crimson;
+    padding: 1.1rem;
+    border-radius: 10px;
+  }
+  #header_section .main-header .logo h2 {
+    color: #fff;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 30px;
+  }
+  #portfolio_section .filter-button ul li {
+    margin-top: 5px;
+  }
+  #contact_section .contact-info .icon-list {
+    margin-bottom: 20px;
+    display: block;
+    display: block!important;
+    text-align: center;
+  }
+  #contact_section .info-with-icon .row .col-12{
+      display: block!important;
+  }
+  #contact_section .contact-info .icon-list .icon {
+    margin-bottom: 10px;
+  }
+  #article_section .card-body .post-exerpt{
+    padding: 0px;
+  }
+
+}
+
+/** When screen width < 430px **/
+@media(max-width: 430px){
+  p{
+    font-size: 17px;
+  }
+  .section-heading .white-section-heading h2 {
+    font-size: 22px;
+  }
+  #home_section .intro .text-2 {
+    font-size: 30px;
+  }
+  #home_section .intro .text-1 {
+    font-size: 16px;
+  }
+  #home_section .intro .text-3 {
+    font-size: 15px;
+  }
+  #home_section .d-flex {
+    display: inline-block!important;
+  }
+  #home_section .action-btn .hire-me a{
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+  #home_section .action-btn a span{
+    display: none;
+  }
+  #testimonial_section .testimonial-slider .single-slide .card .quote-icon img {
+    display: none;
+  }
+  #testimonial_section .clients-feedback p{
+    font-size: 15px;
+  }
+  #article_section .blog-posts .single-blog .card .modal .modal-title {
+    font-size: 16px;
+  }
+  #footer_section #footer_copyright .copyright-text p {
+    font-size: 12px;
+  }
+  #about_section .person-info .title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+
+}
+/** When screen width < 380px **/
+@media(max-width: 380px){
+ 
+  #home_section .intro .text-2 {
+    font-size: 20px;
+  }
+  #home_section .intro .text-3 {
+    font-size: 12px;
+  }
+  #header_section .main-header .mobile-menu .mobile-menu-icon .bars-icon {
+    font-size: 27px;
+    cursor: pointer;
+    color: #fff;
+  }
+  #about_section .contact-popup-modal .popup-btn {
+    padding: 7px 20px;
+  }
+  .section-heading .white-section-heading h2 {
+    font-size: 18px;
+  }
+  .section-heading .white-section-heading .subheading {
+    font-size: 13px;
+  }
+  .section-heading .subheading::before {
+    width: 22px;
+  }
+  .section-heading .subheading::after {
+    width: 22px;
+  }
+  #portfolio_section .single-portfolio .portfolio-icon ul li a {
+    font-size: 12px;
+  }
+  #portfolio_section .single-portfolio .portfolio-overlay p {
+    font-size: 16px;
+    display: none;
+  } 
+  #counter_section .counter-box {
+    padding: 40px 12px;
+    border-radius: 3px;
+    transition: all 0.2s ease-in;
+  }
+
+}
